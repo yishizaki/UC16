@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TV Show Cast Finder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="ajax.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>TV Show Cast Finder</h2>
+      <br/>
+      <p>Select a TV show from the list below.</p>
+      <br>
+  <select>
+      <option value="The 100">The 100</option>
+      <option value="The Americans">The Americans</option>
+      <option value="12 Monkeys">12 Monkeys</option>
+      <option value="Fargo">Fargo</option>
+      <option value="The Originals">The Originals</option>
+      <option value="Doctor Who">Doctor Who</option>
+      <option value="Game of Thrones">Game of Thrones</option>
+      <option value="Supernatural">Supernatural</option>
+      <option value="Pretty Little Liars">Pretty Little Liars</option>
+      <option value="Grey's Anatomy">Grey's Anatomy</option>
+      <option value="The Big Bang Theory">The Big Bang Theory</option>
+      <option value="The Walking Dead">The Walking Dead</option>
+      <option value="13 Reasons Why">13 Reasons Why</option>
+      <option value="Modern Family">Modern Family</option>
+      <option value="Criminal Minds">Criminal Minds</option>
+      <option value="Hawaii Five-O">Hawaii Five-O</option>
+      <option value="Teen Wolf">Teen Wolf</option>
+    </select>
+</div>
+    <br>
+      <br/>
+      <div>
+        <button class='btn btn-success btn-large' onclick="findShow('show')">Find main cast in TV show</button>
+      </div>
+
+      <div>
+        <div id="cast" class=""></div>
+      </div>
+  </body>
+</html>
